@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BMI Generator</title>
+  <link rel="stylesheet" href="color.css">
+</head>
+<body>
+  <h1><b>BMI Calculator</b></h1>
+
+  <div>
+    <!-- Form section -->
+    <form id="bmi-form">
+      <p>
+        <label>Height in cm:
+          <input type="text" id="height" />
+        </label>
+      </p>
+      <p>
+        <label>Weight in kg:
+          <input type="text" id="weight" />
+        </label>
+      </p>
+      <button type="submit">Calculate</button>
+    </form>
+
+    <!-- Results OUTSIDE the form -->
+    <div id="results" style="margin-top: 20px; font-weight: bold;"></div>
+
+    <!-- BMI Guide -->
+    <div>
+      <h2>BMI Weight Guide</h2>
+      <p>Underweight = less than 18.6</p>
+      <p>Normal range = 18.6 to 24.9</p>
+      <p>Overweight = greater than 24.9</p>
+    </div>
+  </div>
+
+  <script src="color.js"></script>
+</body>
+</html>
